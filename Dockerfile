@@ -1,4 +1,4 @@
-FROM golang:1.8-alphine AS builder
+FROM golang:1.7.3 AS builder
 
 # Create and set working directory
 RUN mkdir -p /go/src/github.com/hgsat123/bringon
